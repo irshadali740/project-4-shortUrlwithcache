@@ -4,7 +4,8 @@
   "description": "## Scalable URL Shortner Project Requirement",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
     "express": "^4.18.1",
     "mongoose": "^6.4.4",
     "node-modules": "^1.0.1",
+    "redis": "^3.1.2",
     "shortid": "^2.2.16",
     "valid-url": "^1.0.9"
   }
